@@ -20,7 +20,7 @@ model = ViTForImageClassification.from_pretrained("google/vit-base-patch16-224")
 
 #Defining the processor to fit the image's data to the model's need and AI model for the computer and compiler
 
-image_path = "/Users/metsa/PycharmProjects/pythonProject2/ BEIT /TükenmezY.jpeg"
+image_path = "/---/---/---/---/---/---"
 
 #Defining the image path to use it in the loops and functions
 
@@ -42,8 +42,8 @@ def get_embedding(image_path):
 #process_image calls the image and compute the data in the needed tensor format
 #Using no_grad to disable derivative operations
 
-image1_path = "/Users/metsa/PycharmProjects/pythonProject2/ BEIT /TükenmezP.jpeg"
-image2_path = "/Users/metsa/PycharmProjects/pythonProject2/ BEIT /TükenmezY.jpeg"
+image1_path = "/---/---/---/---/---/---"
+image2_path = "/---/---/---/---/---/---"
 
 #Defining image paths to compare
 
